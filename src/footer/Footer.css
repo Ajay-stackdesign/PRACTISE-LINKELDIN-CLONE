@@ -1,0 +1,72 @@
+.footer {
+  width: 100vw;
+  height: 8vh;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-pack: distribute !important;
+      justify-content: space-around !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  position: relative;
+  bottom: 0px;
+}
+
+.footer .footer__home {
+  position: relative;
+  bottom: 10px;
+}
+
+.footer .footer__home .home {
+  position: absolute;
+  top: 40px;
+  font-size: 15px;
+}
+
+.footer .footer__access {
+  position: relative;
+  bottom: 10px;
+}
+
+.footer .footer__access .network {
+  position: absolute;
+  top: 40px;
+  font-size: 15px;
+}
+
+.footer .footer__add {
+  position: relative;
+  bottom: 10px;
+}
+
+.footer .footer__add .post {
+  position: absolute;
+  top: 40px;
+  font-size: 15px;
+}
+
+.footer .footer__notification {
+  position: relative;
+  bottom: 10px;
+}
+
+.footer .footer__notification .notification {
+  position: absolute;
+  top: 40px;
+  font-size: 15px;
+}
+
+.footer .footer__work {
+  position: relative;
+  bottom: 10px;
+}
+
+.footer .footer__work .job {
+  position: absolute;
+  top: 40px;
+  font-size: 15px;
+}
+/*# sourceMappingURL=Footer.css.map */

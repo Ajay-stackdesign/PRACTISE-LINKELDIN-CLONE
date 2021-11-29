@@ -1,0 +1,43 @@
+.post {
+  margin-top: 10px;
+  border-top: 1px solid lightgray;
+}
+
+.post .text {
+  border-bottom: 1px solid lightgray;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.post .post__avatar {
+  margin-left: 10px;
+}
+
+.post .post_name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  bottom: 50px;
+  right: 30%;
+}
+
+.post .post_name p {
+  text-indent: 10px;
+}
+
+.post .post_name p strong {
+  text-indent: 10px;
+}
+/*# sourceMappingURL=Post.css.map */

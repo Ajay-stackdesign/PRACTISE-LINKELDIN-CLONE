@@ -1,0 +1,28 @@
+.post{
+    margin-top: 10px;
+    border-top: 1px solid lightgray;
+    .text{
+        border-bottom: 1px solid lightgray;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid lightgray;
+    }
+    .post__avatar{
+        margin-left: 10px;
+    }
+    .post_name{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        bottom: 50px;
+        right: 30%;
+        p{
+            text-indent: 10px;
+            strong{
+                text-indent: 10px;
+            }
+        }
+    }
+}

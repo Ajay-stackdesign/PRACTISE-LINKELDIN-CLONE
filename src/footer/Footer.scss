@@ -1,0 +1,53 @@
+
+@mixin icon {
+    position: absolute;
+    top: 40px;
+    font-size: 15px;
+}
+
+@mixin footerIcon {
+    position: relative;
+    bottom: 10px;
+}
+
+.footer{
+    width: 100vw;
+    height: 8vh;
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    position: relative;
+    bottom: 0px;
+    .footer__home{
+        @include footerIcon;
+        .home{
+            @include icon;
+        }
+    }
+    .footer__access{
+        @include footerIcon();
+        .network{
+            @include icon;
+        }
+    }
+    .footer__add{
+        @include footerIcon();
+        .post{
+            @include icon;
+        }
+    }
+    .footer__notification{
+        @include footerIcon();
+        .notification{
+            @include icon;
+        }
+    }
+    .footer__work{
+        @include footerIcon();
+        .job{
+            @include icon;
+        }
+    }
+}
