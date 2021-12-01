@@ -30,7 +30,7 @@ const Footer = () => {
             <div className="icon3">
                 <IconButton className="footer__add">
                     <AddBoxIcon fontSize="large" />
-                    <small className='post'>Post</small>
+                    <small className="post">Post</small>
                 </IconButton>
             </div>
             <div className="icon4">

@@ -7,7 +7,8 @@
   border-bottom: 1px solid lightgray;
   margin-left: 20px;
   margin-bottom: 10px;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 2px solid lightgray;
+  background-color: lightgreen;
 }
 
 .post .post__avatar {
@@ -33,11 +34,37 @@
   right: 30%;
 }
 
-.post .post_name p {
-  text-indent: 10px;
+.post .post_name .post__tier {
+  text-indent: 25px;
 }
 
-.post .post_name p strong {
-  text-indent: 10px;
+.post .post__description {
+  position: relative;
+  bottom: 1.5rem;
+  left: 20px;
+}
+
+.post .post_flex {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+
+.post .post__working {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-pack: distribute !important;
+      justify-content: space-around !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px solid lightgray;
 }
 /*# sourceMappingURL=Post.css.map */

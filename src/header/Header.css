@@ -4,25 +4,25 @@
 }
 
 .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  height: 10vh;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -ms-flex-pack: distribute !important;
+      justify-content: space-around !important;
+  height: 12vh;
   background-color: rgba(255, 255, 255, 0.541);
   border-bottom: 1px solid lightgray;
 }
 
 .header .header__center .header__input {
-  padding: 18px;
-  width: 100%;
+  padding: 15px;
+  width: 80%;
   position: relative;
-  top: 18px;
-  right: 25px;
+  top: 10px;
+  right: 0;
   color: black;
   background-color: rgba(33, 133, 133, 0.096);
   border-radius: 1px solid black;
@@ -32,7 +32,7 @@
 .header .header__center .header__search {
   position: relative;
   bottom: 28px;
-  left: 90%;
+  left: 70%;
 }
 
 input::-webkit-input-placeholder {
@@ -53,5 +53,12 @@ input::-ms-input-placeholder {
 input::placeholder {
   color: red;
   margin-left: 20px;
+}
+
+@media screen and (min-width: 480px) {
+  .header {
+    max-width: 500px;
+    background-color: rgba(243, 232, 232, 0.767);
+  }
 }
 /*# sourceMappingURL=Header.css.map */

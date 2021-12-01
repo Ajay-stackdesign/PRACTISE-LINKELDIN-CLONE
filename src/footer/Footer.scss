@@ -27,25 +27,25 @@
         }
     }
     .footer__access{
-        @include footerIcon();
+        @include footerIcon;
         .network{
             @include icon;
         }
     }
     .footer__add{
-        @include footerIcon();
+        @include footerIcon;
         .post{
             @include icon;
         }
     }
     .footer__notification{
-        @include footerIcon();
+        @include footerIcon;
         .notification{
             @include icon;
         }
     }
     .footer__work{
-        @include footerIcon();
+        @include footerIcon;
         .job{
             @include icon;
         }

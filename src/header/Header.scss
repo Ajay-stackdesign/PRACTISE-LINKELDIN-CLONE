@@ -4,19 +4,19 @@
 }
 
 .header{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 10vh;
+    display: flex !important; 
+    align-items: center !important;
+    justify-content: space-around !important;
+    height: 12vh;
     background-color: rgba(255, 255, 255, 0.541);
     border-bottom: 1px solid lightgray;
     .header__center{
         .header__input{
-            padding: 18px;
-            width: 100%;
+            padding: 15px;
+            width: 80%;
             position: relative;
-            top: 18px;
-            right: 25px;
+            top: 10px;
+            right: 0;
             color: black;
             background-color: rgba(33, 133, 133, 0.096);
             border-radius: 1px solid black;
@@ -25,7 +25,7 @@
         .header__search{
             position: relative;
             bottom: 28px;
-            left: 90%;
+            left: 70%;
         }
     }
 }
@@ -33,4 +33,12 @@
 input::placeholder{
     color: red;
     margin-left: 20px;
+}
+
+@media screen and (min-width: 480px){
+    .header{
+        max-width: 500px;
+        background-color:rgba(243, 232, 232, 0.767);
+    }
+
 }
