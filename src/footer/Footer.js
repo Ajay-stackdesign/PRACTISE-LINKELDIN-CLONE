@@ -6,26 +6,31 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 import WorkIcon from '@mui/icons-material/Work';
 import { IconButton } from "@mui/material";
 import "./Footer.css"
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
     return (
         <div className="footer">
             <div className="icon1">
-                <IconButton className="footer__home">
-                    <HomeIcon fontSize="large" />
-                    <small className="home">Home</small>
-                </IconButton>
+                <Link to="/">
+                    <IconButton className="footer__home">
+                        <HomeIcon fontSize="large" />
+                        <small className="home">Home</small>
+                    </IconButton>
+                </Link>
             </div>
             {/* <IconButton className="footer__home">
                 <HomeIcon fontSize="large" />
                 <small className="home">Home</small>
             </IconButton> */}
             <div className="icon2">
-                <IconButton className="footer__access">
-                    <AccessibilityNewIcon fontSize="large" />
-                    <small className="network">Network</small>
-                </IconButton>
+                <Link to="/network">
+                    <IconButton className="footer__access">
+                        <AccessibilityNewIcon fontSize="large" />
+                        <small className="network">Network</small>
+                    </IconButton>
+                </Link>
             </div>
             <div className="icon3">
                 <IconButton className="footer__add">
@@ -60,7 +65,7 @@ const Footer = () => {
             <IconButton className="work">
                 <WorkIcon fontSize="large" />
                 {/* <p className="job">jobs</p> */}
-        {/* </IconButton> * /} */}
+            {/* </IconButton> * /} */}
 
         </div >
     )
