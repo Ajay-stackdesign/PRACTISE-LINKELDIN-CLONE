@@ -1,5 +1,8 @@
 .footer {
-  width: 100vw;
+  position: fixed;
+  top: 90vh;
+  bottom: 0;
+  width: 100%;
   height: 8vh;
   display: -webkit-box !important;
   display: -ms-flexbox !important;
@@ -11,62 +14,71 @@
           align-items: center !important;
   border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
-  position: relative;
-  bottom: 0px;
+  background-color: bisque !important;
 }
 
 .footer .footer__home {
   position: relative;
   bottom: 10px;
+  color: red;
 }
 
 .footer .footer__home .home {
   position: absolute;
   top: 40px;
   font-size: 15px;
+  color: black;
 }
 
 .footer .footer__access {
   position: relative;
   bottom: 10px;
+  color: red;
 }
 
 .footer .footer__access .network {
   position: absolute;
   top: 40px;
   font-size: 15px;
+  color: black;
 }
 
 .footer .footer__add {
   position: relative;
   bottom: 10px;
+  color: red;
 }
 
 .footer .footer__add .post {
   position: absolute;
   top: 40px;
   font-size: 15px;
+  color: black;
 }
 
 .footer .footer__notification {
   position: relative;
   bottom: 10px;
+  color: red;
 }
 
 .footer .footer__notification .notification {
   position: absolute;
   top: 40px;
   font-size: 15px;
+  color: black;
 }
 
 .footer .footer__work {
   position: relative;
   bottom: 10px;
+  color: red;
 }
 
 .footer .footer__work .job {
   position: absolute;
   top: 40px;
   font-size: 15px;
+  color: black;
 }
 /*# sourceMappingURL=Footer.css.map */
