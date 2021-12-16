@@ -1,0 +1,14 @@
+.network {
+  position: absolute;
+  top: 15vh;
+}
+
+.network .network__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-bottom: 1px solid lightgray;
+}
+/*# sourceMappingURL=Network.css.map */

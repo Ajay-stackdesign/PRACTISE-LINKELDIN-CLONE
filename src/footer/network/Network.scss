@@ -1,0 +1,9 @@
+.network{
+    position: absolute;
+    top: 15vh;
+    .network__flex{
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 1px solid lightgray;
+    }
+}
